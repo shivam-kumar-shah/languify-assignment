@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;800;900&display=swap");
+
 .card__drop-shadow {
   box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 0.25);
+}
+.testimonial__drop-shadow {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  @apply font-Inter;
+}
+
+.stat__tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  @apply gap-8;
 }

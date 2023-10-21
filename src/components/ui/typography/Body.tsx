@@ -1,9 +1,11 @@
-import React from "react";
+import React, { PropsWithChildren } from "react";
 
-type Props = {};
+type Props = {
+  className?: string;
+};
 
-const Body = (props: Props) => {
-  return <div>Body</div>;
+const Body = ({ children, className }: PropsWithChildren<Props>) => {
+  return <p className={`${className}`}>{children}</p>;
 };
 
 export default Body;

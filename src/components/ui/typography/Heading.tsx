@@ -1,9 +1,11 @@
-import React from "react";
+import React, { PropsWithChildren } from "react";
 
-type Props = {};
+type Props = {
+  className?: string;
+};
 
-const Heading = (props: Props) => {
-  return <div>Heading</div>;
+const Heading = ({ className, children }: PropsWithChildren<Props>) => {
+  return <h2 className={`${className}`}>{children}</h2>;
 };
 
 export default Heading;

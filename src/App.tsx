@@ -1,15 +1,23 @@
 import React from "react";
-import Nav from "./components/layout/navbar/Nav";
-import Hero from "./components/Hero";
+import Landing from "./screens/landing";
+import Stats from "./screens/stats";
+import Solutions from "./screens/solutions";
+import Testimonials from "./screens/testimonials";
+import FAQs from "./screens/faq";
+import ContactUs from "./screens/contactus";
 
 type Props = {};
 
 const App = (props: Props) => {
   return (
-    <div className="w-screen h-screen">
-      <Nav />
-      <Hero />
-    </div>
+    <>
+      <Landing />
+      <Stats />
+      <Solutions />
+      <Testimonials />
+      <FAQs />
+      <ContactUs />
+    </>
   );
 };
 

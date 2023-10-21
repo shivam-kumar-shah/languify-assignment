@@ -1,12 +1,12 @@
-import Button from "../../../ui/input/Button";
-import Link from "../../../ui/navigation/Link";
+import Button from "../../ui/input/Button";
+import Link from "../../ui/navigation/Link";
 
 type Props = {};
 
 const DesktopNav = (props: Props) => {
   return (
     <div className="w-0 h-0 overflow-hidden md:w-full md:h-24 bg-nav__background px-6 ">
-      <div className="flex  md:h-full justify-between w-full">
+      <div className="flex md:h-full justify-between w-full">
         <div className="mx-14 md:mx-16 flex my-4">
           <img src="logo.png" alt="logo" />
         </div>

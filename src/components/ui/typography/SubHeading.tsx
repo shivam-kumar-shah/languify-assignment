@@ -1,9 +1,11 @@
-import React from "react";
+import React, { PropsWithChildren } from "react";
 
-type Props = {};
+type Props = {
+  className?: string;
+};
 
-const SubHeading = (props: Props) => {
-  return <div>SubHeading</div>;
+const SubHeading = ({ children, className }: PropsWithChildren<Props>) => {
+  return <h3 className={`text-lg ${className}`}>{children}</h3>;
 };
 
 export default SubHeading;
