@@ -14,12 +14,14 @@ const TestimonialCard = (props: Props) => {
       <div className="info flex flex-row text-lg items-center h-16">
         <div className="pic bg-theme__primary h-full aspect-square rounded-full"></div>
         <div className="title ml-8 mr-auto">
-          <Heading className="text-font__secondary">Lokap Sahu</Heading>
-          <SubHeading className="text-theme__primary text-sm">
+          <Heading className="text-font__secondary whitespace-nowrap">
+            Lokap Sahu
+          </Heading>
+          <SubHeading className="text-theme__primary text-sm whitespace-nowrap">
             CEO at Interview
           </SubHeading>
         </div>
-        <BsLinkedin className="text-theme__primary text-3xl" />
+        <BsLinkedin className="text-theme__primary text-3xl hidden sm:block" />
       </div>
       <div className="description text-sm flex flex-col gap-y-2">
         <Body className="text-font__card">

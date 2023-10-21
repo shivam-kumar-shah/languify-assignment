@@ -9,7 +9,7 @@ type Props = {};
 
 const FAQs = (props: Props) => {
   return (
-    <div className="max-w-5xl mx-auto my-16">
+    <div className="max-w-5xl mx-auto my-16 hidden sm:block">
       <div className="heading flex flex-col items-center gap-y-4">
         <Heading className="text-theme__primary text-3xl">FAQs</Heading>
         <Heading className="text-5xl font-bold">

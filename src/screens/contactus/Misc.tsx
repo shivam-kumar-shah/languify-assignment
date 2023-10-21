@@ -7,7 +7,7 @@ type Props = {};
 
 const Misc = (props: Props) => {
   return (
-    <div className="w-full text-font__secondary font-bold gap-y-4 flex flex-col">
+    <div className="w-full text-font__secondary font-bold gap-y-4 flex flex-col border-b sm:border-b-0 py-8 sm:py-0">
       <Heading>About Chrome extension</Heading>
       <Heading>About Inprep</Heading>
       <Heading>Target Audience</Heading>

@@ -9,7 +9,7 @@ type Props = {};
 
 const ContactForm = (props: Props) => {
   return (
-    <div className="contact-form text-font__secondary flex flex-col w-full gap-y-4">
+    <div className="contact-form text-font__secondary flex flex-col w-full gap-y-4 border-b sm:border-b-0 py-8 sm:py-0">
       <div className="flex flex-col w-full gap-y-2">
         <Heading className="text-2xl font-bold">Contact Us</Heading>
         <Body className="text-font__card text-base flex flex-col gap-y-2">

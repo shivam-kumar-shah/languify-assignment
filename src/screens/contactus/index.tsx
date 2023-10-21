@@ -10,8 +10,8 @@ type Props = {};
 
 const ContactUs = (props: Props) => {
   return (
-    <div className="bg-background__card__secondary w-full">
-      <div className="content max-w-6xl py-16 px-8 flex flex-row mx-auto gap-x-16">
+    <div className="bg-background__card__secondary w-full overflow-hidden">
+      <div className="content max-w-6xl py-16 px-8 flex sm:flex-row flex-col mx-auto gap-x-16">
         <About />
         <ContactForm />
         <Misc />

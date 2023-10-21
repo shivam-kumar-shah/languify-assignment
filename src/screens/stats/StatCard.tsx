@@ -9,9 +9,15 @@ type Props = {
 
 export const StatCard = ({ src, alt, children }: PropsWithChildren<Props>) => {
   return (
-    <Card className="flex flex-row items-center gap-x-6 bg-background__card">
-      <img src={src} alt={alt} className="h-10 aspect-square object-contain" />
-      <SubHeading className="text-base flex flex-col">{children}</SubHeading>
+    <Card className="flex flex-row items-center gap-x-6 bg-background__card w-full aspect-video overflow-hidden sm:aspect-auto sm:w-auto p-4">
+      <img
+        src={src}
+        alt={alt}
+        className="w-1/4 sm:h-10 aspect-square object-contain"
+      />
+      <SubHeading className="text-sm sm:text-base flex flex-col">
+        {children}
+      </SubHeading>
     </Card>
   );
 };

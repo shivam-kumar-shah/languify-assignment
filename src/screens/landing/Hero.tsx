@@ -8,15 +8,15 @@ type Props = {};
 
 const Hero = ({}: Props) => {
   return (
-    <main className="h-full w-full bg-background__card__secondary flex flex-col justify-between">
-      <div className="h-full w-full flex flex-col items-center justify-center gap-y-8">
-        <h1 className="text-font__secondary text-6xl font-[800] flex flex-col justify-center items-center">
+    <main className="h-full w-full bg-background__card__secondary flex flex-col justify-between -z-50 px-4 sm:p-0">
+      <div className="h-full w-full flex flex-col items-center justify-center gap-y-8 text-center">
+        <h1 className="text-font__secondary text-4xl sm:text-6xl font-[800] flex flex-col justify-center items-center text-center">
           <span>an AI that can</span> <span>improve your communication</span>
         </h1>
         <SubHeading className="text-font__secondary">
           Interview aims on helps on helps you improve your English in real-time
         </SubHeading>
-        <div className="call-to-action flex flex-row gap-x-4 items-center">
+        <div className="call-to-action flex flex-col sm:flex-row gap-x-4 gap-y-8 items-center">
           <Button className="bg-theme__primary font-bold">
             Try Interview’s In-prep NOW!
           </Button>
@@ -25,16 +25,16 @@ const Hero = ({}: Props) => {
           </Link>
         </div>
       </div>
-      <div className="vector-art relative h-64 overflow-clip">
+      <div className="vector-art relative sm:h-64 h-16 overflow-clip">
         <img
           src="vector/back.png"
           alt="background--vector"
-          className="w-full absolute top-0"
+          className="w-full absolute bottom-0 sm:top-0"
         />
         <img
           src="vector/front.png"
           alt="foreground--vector"
-          className="w-full absolute top-0"
+          className="w-full absolute bottom-0 sm:top-0"
         />
       </div>
     </main>

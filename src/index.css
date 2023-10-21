@@ -16,8 +16,6 @@
 }
 
 .stat__tiles {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  @apply sm:grid sm:grid-cols-2 sm:grid-rows-2 flex flex-col w-full sm:w-auto;
   @apply gap-8;
 }

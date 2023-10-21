@@ -5,7 +5,9 @@ type Props = { className?: string };
 
 const Paper = ({ children, className }: PropsWithChildren<Props>) => {
   return (
-    <div className={twMerge(`rounded-xl px-8 py-4`, className)}>{children}</div>
+    <div className={twMerge(`sm:rounded-xl rounded-md px-8 py-4`, className)}>
+      {children}
+    </div>
   );
 };
 
