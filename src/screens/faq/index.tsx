@@ -1,9 +1,6 @@
-import React from "react";
-import Heading from "../../components/ui/typography/Heading";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import Body from "../../components/ui/typography/Body";
-import FAQTile from "./FAQTile";
 import Paper from "../../components/ui/surface/Paper";
+import Heading from "../../components/ui/typography/Heading";
+import FAQTile from "./FAQTile";
 
 type Props = {};
 

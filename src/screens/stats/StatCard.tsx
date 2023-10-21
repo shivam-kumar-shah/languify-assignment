@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import Card from "../../components/ui/surface/Card";
 import SubHeading from "../../components/ui/typography/SubHeading";
 

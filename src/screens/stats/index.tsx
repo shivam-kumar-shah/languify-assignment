@@ -1,7 +1,3 @@
-import React from "react";
-import Card from "../../components/ui/surface/Card";
-import SubHeading from "../../components/ui/typography/SubHeading";
-import { StatCard } from "./StatCard";
 import FeatureGrid from "./FeatureGrid";
 import StatsGrid from "./StatsGrid";
 

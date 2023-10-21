@@ -1,7 +1,6 @@
-import React from "react";
-import Heading from "../../components/ui/typography/Heading";
-import Body from "../../components/ui/typography/Body";
 import Button from "../../components/ui/input/Button";
+import Body from "../../components/ui/typography/Body";
+import Heading from "../../components/ui/typography/Heading";
 
 type Props = {};
 

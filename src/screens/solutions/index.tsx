@@ -1,9 +1,4 @@
-import React from "react";
-import { AiOutlineCheckCircle } from "react-icons/ai";
-
 import Heading from "../../components/ui/typography/Heading";
-import Card from "../../components/ui/surface/Card";
-import SubHeading from "../../components/ui/typography/SubHeading";
 import SolutionCard from "./SolutionCard";
 
 type Props = {};

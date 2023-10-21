@@ -1,4 +1,3 @@
-import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import Link from "../../components/ui/navigation/Link";
 import Card from "../../components/ui/surface/Card";

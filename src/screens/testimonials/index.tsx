@@ -1,11 +1,5 @@
-import React from "react";
 import Paper from "../../components/ui/surface/Paper";
 import Heading from "../../components/ui/typography/Heading";
-import Card from "../../components/ui/surface/Card";
-import { BsLinkedin } from "react-icons/bs";
-import SubHeading from "../../components/ui/typography/SubHeading";
-import Body from "../../components/ui/typography/Body";
-import Link from "../../components/ui/navigation/Link";
 import TestimonialCard from "./TestimonialCard";
 
 type Props = {};

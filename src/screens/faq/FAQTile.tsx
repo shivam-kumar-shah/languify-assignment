@@ -1,4 +1,3 @@
-import React from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Body from "../../components/ui/typography/Body";
 

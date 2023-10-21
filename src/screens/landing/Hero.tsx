@@ -1,12 +1,10 @@
-import React from "react";
-import Heading from "../../components/ui/typography/Heading";
-import SubHeading from "../../components/ui/typography/SubHeading";
 import Button from "../../components/ui/input/Button";
 import Link from "../../components/ui/navigation/Link";
+import SubHeading from "../../components/ui/typography/SubHeading";
 
 type Props = {};
 
-const Hero = ({}: Props) => {
+const Hero = (props: Props) => {
   return (
     <main className="-z-50 flex h-full w-full flex-col justify-between bg-background__card__secondary px-4 sm:p-0">
       <div className="flex h-full w-full flex-col items-center justify-center gap-y-8 text-center">

@@ -1,8 +1,5 @@
-import React from "react";
-import { BsCheckSquareFill } from "react-icons/bs";
 import Paper from "../../components/ui/surface/Paper";
 import Heading from "../../components/ui/typography/Heading";
-import SubHeading from "../../components/ui/typography/SubHeading";
 import StatTile from "./StatTile";
 
 type Props = {};

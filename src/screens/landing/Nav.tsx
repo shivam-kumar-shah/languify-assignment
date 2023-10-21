@@ -1,4 +1,3 @@
-import React from "react";
 import DesktopNav from "../../components/layout/navbar/DesktopNav";
 
 type Props = {};

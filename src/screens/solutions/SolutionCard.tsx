@@ -1,9 +1,6 @@
-import React from "react";
-import { AiOutlineCheckCircle } from "react-icons/ai";
-import Card from "../../components/ui/surface/Card";
+import Paper from "../../components/ui/surface/Paper";
 import SubHeading from "../../components/ui/typography/SubHeading";
 import SolutionTile from "./SolutionTile";
-import Paper from "../../components/ui/surface/Paper";
 
 type Props = {
   src: string;

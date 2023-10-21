@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 type Props = {};

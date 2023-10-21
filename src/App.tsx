@@ -1,10 +1,9 @@
-import React from "react";
-import Landing from "./screens/landing";
-import Stats from "./screens/stats";
-import Solutions from "./screens/solutions";
-import Testimonials from "./screens/testimonials";
-import FAQs from "./screens/faq";
 import ContactUs from "./screens/contactus";
+import FAQs from "./screens/faq";
+import Landing from "./screens/landing";
+import Solutions from "./screens/solutions";
+import Stats from "./screens/stats";
+import Testimonials from "./screens/testimonials";
 
 type Props = {};
 

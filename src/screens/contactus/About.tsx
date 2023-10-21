@@ -1,7 +1,6 @@
-import React from "react";
-import Heading from "../../components/ui/typography/Heading";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import Body from "../../components/ui/typography/Body";
-import { BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
+import Heading from "../../components/ui/typography/Heading";
 
 type Props = {};
 
