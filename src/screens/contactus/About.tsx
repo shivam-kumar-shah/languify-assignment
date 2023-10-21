@@ -7,7 +7,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div className="about text-font__secondary flex flex-col gap-y-4">
+    <div className="about text-font__secondary flex flex-col gap-y-4 w-full">
       <Heading className="text-2xl font-bold">About Interview</Heading>
       <Body className="text-font__card text-base">
         A fresh and an upcoming service provider, we write, design, develop
