@@ -9,13 +9,13 @@ type Props = {
 
 export const StatCard = ({ src, alt, children }: PropsWithChildren<Props>) => {
   return (
-    <Card className="flex flex-row items-center gap-x-6 bg-background__card w-full aspect-video overflow-hidden sm:aspect-auto sm:w-auto p-4">
+    <Card className="flex aspect-video w-full flex-row items-center gap-x-6 overflow-hidden bg-background__card p-4 sm:aspect-auto sm:w-auto">
       <img
         src={src}
         alt={alt}
-        className="w-1/4 sm:h-10 aspect-square object-contain"
+        className="aspect-square w-1/4 object-contain sm:h-10"
       />
-      <SubHeading className="text-sm sm:text-base flex flex-col">
+      <SubHeading className="flex flex-col text-sm sm:text-base">
         {children}
       </SubHeading>
     </Card>

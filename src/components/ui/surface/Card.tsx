@@ -9,8 +9,8 @@ const Card = ({ children, className }: PropsWithChildren<Props>) => {
   return (
     <div
       className={twMerge(
-        `sm:rounded-xl rounded-md card__drop-shadow px-8 py-4 w-fit h-fit`,
-        className
+        `card__drop-shadow h-fit w-fit rounded-md px-8 py-4 sm:rounded-xl`,
+        className,
       )}
     >
       {children}

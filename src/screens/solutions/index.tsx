@@ -10,16 +10,16 @@ type Props = {};
 
 const Solutions = (props: Props) => {
   return (
-    <section className="w-screen flex flex-col pt-20 max-w-6xl mx-auto px-4">
-      <Heading className="font-bold sm:text-4xl text-3xl flex flex-col mb-12">
+    <section className="mx-auto flex w-screen max-w-6xl flex-col px-4 pt-20">
+      <Heading className="mb-12 flex flex-col text-3xl font-bold sm:text-4xl">
         We understand your challenges &
         <span>
           have
           <span className="text-theme__primary"> solutions just for you!</span>
         </span>
       </Heading>
-      <div className="solutions__grid h-full w-full flex flex-col gap-y-12 overflow-hidden">
-        <div className="flex sm:flex-row flex-col sm:justify-start h-full w-full overflow-hidden gap-12">
+      <div className="solutions__grid flex h-full w-full flex-col gap-y-12 overflow-hidden">
+        <div className="flex h-full w-full flex-col gap-12 overflow-hidden sm:flex-row sm:justify-start">
           <SolutionCard
             src="assets/student.png"
             bullets={[
@@ -39,7 +39,7 @@ const Solutions = (props: Props) => {
             title="For Businesses"
           />
         </div>
-        <div className="flex sm:flex-row flex-col sm:justify-end h-full w-full overflow-hidden gap-12">
+        <div className="flex h-full w-full flex-col gap-12 overflow-hidden sm:flex-row sm:justify-end">
           <SolutionCard
             src="assets/college.png"
             bullets={[

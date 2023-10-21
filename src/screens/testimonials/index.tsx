@@ -12,9 +12,9 @@ type Props = {};
 
 const Testimonials = (props: Props) => {
   return (
-    <section className="max-w-5xl mx-auto my-16 px-4 sm:p-0">
-      <Paper className="w-full bg-background__card__secondary rounded-lg gap-y-12 flex flex-col sm:p-16 p-8 overflow-hidden">
-        <Heading className="flex flex-col sm:text-5xl text-3xl font-bold text-font__secondary">
+    <section className="mx-auto my-16 max-w-5xl px-4 sm:p-0">
+      <Paper className="flex w-full flex-col gap-y-12 overflow-hidden rounded-lg bg-background__card__secondary p-8 sm:p-16">
+        <Heading className="flex flex-col text-3xl font-bold text-font__secondary sm:text-5xl">
           <span>don’t just take our</span>
           <span>word for it...</span>
         </Heading>

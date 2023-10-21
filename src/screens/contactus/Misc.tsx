@@ -7,7 +7,7 @@ type Props = {};
 
 const Misc = (props: Props) => {
   return (
-    <div className="w-full text-font__secondary font-bold gap-y-4 flex flex-col border-b sm:border-b-0 py-8 sm:py-0">
+    <div className="flex w-full flex-col gap-y-4 border-b py-8 font-bold text-font__secondary sm:border-b-0 sm:py-0">
       <Heading>About Chrome extension</Heading>
       <Heading>About Inprep</Heading>
       <Heading>Target Audience</Heading>
@@ -17,7 +17,7 @@ const Misc = (props: Props) => {
         A fresh and an upcoming service provider, we write, design, develop
         content and consult to cater to unconventional .
       </Body>
-      <Button className="bg-background__card__tertiary text-sm self-start">
+      <Button className="self-start bg-background__card__tertiary text-sm">
         I’m Interested
       </Button>
     </div>

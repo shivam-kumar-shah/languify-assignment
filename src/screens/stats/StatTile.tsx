@@ -8,12 +8,12 @@ type Props = { className?: string; title: string; subtitle: string };
 
 const StatTile = ({ title, subtitle, className }: Props) => {
   return (
-    <Paper className="bg-background__card__tertiary h-fit flex flex-col gap-y-4 px-8 py-8">
-      <BsCheckSquareFill className="text-theme__primary text-2xl" />
-      <Heading className="text-font__secondary text-4xl font-bold">
+    <Paper className="flex h-fit flex-col gap-y-4 bg-background__card__tertiary px-8 py-8">
+      <BsCheckSquareFill className="text-2xl text-theme__primary" />
+      <Heading className="text-4xl font-bold text-font__secondary">
         {title}
       </Heading>
-      <SubHeading className="text-font__secondary text-base">
+      <SubHeading className="text-base text-font__secondary">
         {subtitle}
       </SubHeading>
     </Paper>

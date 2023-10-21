@@ -14,9 +14,9 @@ type Props = {
 
 const SolutionCard = ({ src, title, bullets, alt }: Props) => {
   return (
-    <Paper className="flex flex-col sm:w-2/6 w-full aspect-square py-0 px-0 bg-background__secondary overflow-clip">
-      <img src={src} alt={alt} className="object-cover h-2/5 grow" />
-      <div className="description py-4 px-8">
+    <Paper className="flex aspect-square w-full flex-col overflow-clip bg-background__secondary px-0 py-0 sm:w-2/6">
+      <img src={src} alt={alt} className="h-2/5 grow object-cover" />
+      <div className="description px-8 py-4">
         <SubHeading className="mb-2 font-semibold text-background__card__secondary">
           {title}
         </SubHeading>

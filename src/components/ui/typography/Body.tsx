@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Body = ({ children, className }: PropsWithChildren<Props>) => {
-  return <p className={`text-justify break-words ${className}`}>{children}</p>;
+  return <p className={`break-words text-justify ${className}`}>{children}</p>;
 };
 
 export default Body;

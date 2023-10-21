@@ -6,7 +6,7 @@ type Props = {};
 
 const Landing = (props: Props) => {
   return (
-    <section className="w-screen h-screen flex flex-col -z-50">
+    <section className="-z-50 flex h-screen w-screen flex-col">
       <Nav />
       <Hero />
     </section>

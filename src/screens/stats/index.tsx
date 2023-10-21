@@ -9,7 +9,7 @@ type Props = {};
 
 const Stats = (props: Props) => {
   return (
-    <section className="sm:h-screen w-screen bg-background sm:px-16 flex flex-col z-50 px-4">
+    <section className="z-50 flex w-screen flex-col bg-background px-4 sm:h-screen sm:px-16">
       <FeatureGrid />
       <StatsGrid />
     </section>

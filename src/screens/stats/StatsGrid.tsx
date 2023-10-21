@@ -9,8 +9,8 @@ type Props = {};
 
 const StatsGrid = (props: Props) => {
   return (
-    <Paper className="bg-background__card__secondary sm:h-full sm:w-fit w-full sm:aspect-video rounded-lg mx-auto flex sm:flex-row flex-col items-center justify-between sm:px-12 px-4 py-8 gap-y-8 gap-x-8">
-      <Heading className="flex flex-col text-3xl text-font__secondary sm:pl-12 text-center sm:text-left">
+    <Paper className="mx-auto flex w-full flex-col items-center justify-between gap-x-8 gap-y-8 rounded-lg bg-background__card__secondary px-4 py-8 sm:aspect-video sm:h-full sm:w-fit sm:flex-row sm:px-12">
+      <Heading className="flex flex-col text-center text-3xl text-font__secondary sm:pl-12 sm:text-left">
         <span>The Numbers</span>
         <span>speak for</span>
         <span>themselves</span>

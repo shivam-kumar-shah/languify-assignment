@@ -10,20 +10,20 @@ type Props = {};
 
 const TestimonialCard = (props: Props) => {
   return (
-    <Card className="testimonial__drop-shadow bg-background__card__tertiary flex flex-col w-full gap-y-4 p-8">
-      <div className="info flex flex-row text-lg items-center h-16">
-        <div className="pic bg-theme__primary h-full aspect-square rounded-full"></div>
+    <Card className="testimonial__drop-shadow flex w-full flex-col gap-y-4 bg-background__card__tertiary p-8">
+      <div className="info flex h-16 flex-row items-center text-lg">
+        <div className="pic aspect-square h-full rounded-full bg-theme__primary"></div>
         <div className="title ml-8 mr-auto">
-          <Heading className="text-font__secondary whitespace-nowrap">
+          <Heading className="whitespace-nowrap text-font__secondary">
             Lokap Sahu
           </Heading>
-          <SubHeading className="text-theme__primary text-sm whitespace-nowrap">
+          <SubHeading className="whitespace-nowrap text-sm text-theme__primary">
             CEO at Interview
           </SubHeading>
         </div>
-        <BsLinkedin className="text-theme__primary text-3xl hidden sm:block" />
+        <BsLinkedin className="hidden text-3xl text-theme__primary sm:block" />
       </div>
-      <div className="description text-sm flex flex-col gap-y-2">
+      <div className="description flex flex-col gap-y-2 text-sm">
         <Body className="text-font__card">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam, id
           pellentesque impdiet suspe. liquam, id tesque imperdiet suspendisse “

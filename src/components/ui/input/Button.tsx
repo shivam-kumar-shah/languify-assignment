@@ -8,7 +8,7 @@ type Props = {
 const Button = ({ children, className, onClick }: PropsWithChildren<Props>) => {
   return (
     <button
-      className={`text-white px-8 py-4 rounded-xl ${className}`}
+      className={`rounded-xl px-8 py-4 text-white ${className}`}
       onClick={onClick}
     >
       {children}
